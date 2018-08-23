@@ -1,22 +1,10 @@
-body {
-    font-family: 'Germania One', cursive;
-    width: 100%;
-    background-image: url('../img/Burger%20background.jpg');
-}
 
-h1 {
+
+title {
     margin: auto 0;
-    margin-left: 20%;
-    margin-bottom: 3%;
-    margin-top: 2%;
-}
-
-#avail {
-    float: left;
-    margin-right: 6%;
-    margin-left: 10%;
-
-
+    margin-left: 15%;
+    margin-bottom: 4%;
+    margin-top: 3%;
 }
 
 #devoured {
@@ -24,13 +12,6 @@ h1 {
 
 }
 
-li {
-    font-size: 20px;
-    list-style-type: none;
-}
-
-
-#add {
-    clear: both;
-    margin-left: 25%;
+#top-bar {
+  margin-top: 26px;
 }
