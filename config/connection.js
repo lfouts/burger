@@ -1,12 +1,8 @@
 var mysql = require('mysql');
 
-var connection = mysql.createConnection({
-     host: 'localhost',
-     port: 3306,
-     user: 'root',
-     password: process.env.DB_PASSWORD,
-     database: 'burgers_db'
- });
+var connection = mysql.createConnection(
+     "mysql://bba3bcd4199375:db85379c@us-cdbr-iron-east-01.cleardb.net/heroku_331f77c6c193ff2?reconnect=true"
+ );
 
 
 connection.connect(function(err) {
